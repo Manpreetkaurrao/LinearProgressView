@@ -97,7 +97,7 @@ open class LinearProgressView: UIView {
         self.layoutMargins = .zero
     }
     
-    @obj open func setProgress(_ value: Float, animated: Bool) {
+    @objc open func setProgress(_ value: Float, animated: Bool) {
         self.progress = value
         
         if animated {
